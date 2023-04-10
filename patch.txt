@@ -1,0 +1,22 @@
+============================================================================================
+                            PATCH FOR BRUTE FORCE
+============================================================================================
+
+We do not need a patch to make the code safe in a Brute force attack. 
+There are a few things we can do to protect our credentials:
+In server-side:
+1. Limit attempt or limit IP address to limit the simultaneous number of server connection
+2. Use multi-factor authentication
+
+In client-side:
+1. Using complex passwords, not only word or number
+2. Avoid using personal data as a password
+3. Use the different passwords in a different account
+4. Change the password regularly
+
+
+================================================================
+  	 FESTY WINDA SARI	 2133203
+	 UMMI AISHATU IBRAHIM	 940165      
+================================================================
+

