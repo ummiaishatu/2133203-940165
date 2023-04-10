@@ -1,8 +1,8 @@
  ---------------------------------------------------------------
 	    Brute force demonstration step by step
        _ +-------------------------------------------+ _
-      /o)|        CSCM28 Penetration Testing         |(o\
-     / / |            Second Coursework              | \ \
+      /o)|         Penetration Testing         	     |(o\
+     / / |             Coursework              	     | \ \
     ( (_ |  _                                     _  | _) )
    ((\ \)+-/o)-----------------------------------(o\-+(/ /))
    (\\\ \_/ /                                     \ \_/ ///)
